@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="400.0" maxWidth="520.0" minHeight="400.0" minWidth="520.0" prefHeight="400.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="411.0" layoutY="-18.0" prefHeight="400.0" prefWidth="56.0" style="-fx-background-color: #BDBDBD;" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <BorderPane layoutX="1.0" prefHeight="42.0" prefWidth="464.0" style="-fx-background-color: #585858;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="56.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <Text fill="#fcfcfc" strokeType="OUTSIDE" strokeWidth="0.0" text="Integrated System" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold Italic" size="28.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets left="10.0" />
+               </BorderPane.margin>
+            </Text>
+         </left>
+      </BorderPane>
+      <AnchorPane layoutY="42.0" minWidth="464.0" prefHeight="359.0" prefWidth="464.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="56.0" AnchorPane.topAnchor="42.0">
+         <children>
+            <GridPane layoutX="15.0" layoutY="121.0" prefHeight="117.0" prefWidth="435.0" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="121.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button id="ButtonTA" fx:id="ButtonTA" alignment="CENTER" contentDisplay="CENTER" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#abrirTA" prefHeight="76.0" prefWidth="148.0" text="ButtonTA" textFill="TRANSPARENT">
+                     <graphic>
+                        <ImageView fitHeight="82.0" fitWidth="138.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../resources/Boton-TA2.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust />
+                           </effect>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button id="ButtonFREY" fx:id="ButtonFREY" alignment="CENTER" contentDisplay="CENTER" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#abrirFREY" prefHeight="76.0" prefWidth="148.0" text="ButtonFREY" textFill="TRANSPARENT" GridPane.columnIndex="1">
+                     <graphic>
+                        <ImageView fitHeight="73.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../resources/FreyLogo.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button id="ButtonMRD" fx:id="ButtonMRD" alignment="CENTER" contentDisplay="CENTER" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#abrirMNRD" prefHeight="76.0" prefWidth="159.0" text="ButtonMRD" textFill="TRANSPARENT" GridPane.columnIndex="2">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="149.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../resources/BotonMenard.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </GridPane>
+            <Pane layoutX="353.0" layoutY="316.0" prefHeight="42.0" prefWidth="111.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <ImageView fitHeight="28.0" fitWidth="122.0" layoutX="11.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/LogoVinci.PNG" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </children></Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

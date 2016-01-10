@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="400.0" maxWidth="520.0" minHeight="400.0" minWidth="520.0" prefHeight="400.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="411.0" layoutY="-18.0" prefHeight="400.0" prefWidth="56.0" style="-fx-background-color: #BDBDBD;" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <GridPane alignment="CENTER" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="40.0" minHeight="8.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button contentDisplay="CENTER" mnemonicParsing="false" text="Button" textFill="TRANSPARENT" GridPane.rowIndex="1">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../../resources/ic_group_black_36dp.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <GridPane.margin>
+                        <Insets left="2.0" right="2.0" />
+                     </GridPane.margin></Button>
+                  <Button contentDisplay="CENTER" mnemonicParsing="false" text="Button" textFill="TRANSPARENT" GridPane.rowIndex="2">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../../resources/ic_content_paste_black_36dp.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <GridPane.margin>
+                        <Insets left="2.0" right="2.0" />
+                     </GridPane.margin></Button>
+                  <Button contentDisplay="CENTER" mnemonicParsing="false" text="Button" textFill="TRANSPARENT" GridPane.rowIndex="3">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../../resources/ic_edit_black_36dp.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <GridPane.margin>
+                        <Insets left="2.0" right="2.0" />
+                     </GridPane.margin></Button>
+                  <Button contentDisplay="CENTER" mnemonicParsing="false" text="Button" textFill="TRANSPARENT" GridPane.rowIndex="4">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../../resources/ic_attach_file_black_36dp.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <GridPane.margin>
+                        <Insets left="2.0" right="2.0" />
+                     </GridPane.margin></Button>
+                  <Button contentDisplay="CENTER" mnemonicParsing="false" text="Button" textFill="TRANSPARENT" GridPane.rowIndex="5">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../../resources/ic_business_center_black_36dp.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <GridPane.margin>
+                        <Insets left="2.0" right="2.0" />
+                     </GridPane.margin></Button>
+                  <Button contentDisplay="CENTER" mnemonicParsing="false" text="Button" textFill="TRANSPARENT" GridPane.rowIndex="6">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../../resources/ic_attach_money_black_36dp.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <GridPane.margin>
+                        <Insets left="2.0" right="2.0" />
+                     </GridPane.margin></Button>
+                  <Button contentDisplay="CENTER" mnemonicParsing="false" text="Button" textFill="TRANSPARENT" GridPane.rowIndex="7">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../../resources/ic_business_black_36dp.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <GridPane.margin>
+                        <Insets left="2.0" right="2.0" />
+                     </GridPane.margin></Button>
+                  <Button contentDisplay="CENTER" mnemonicParsing="false" text="Button" textFill="TRANSPARENT" GridPane.rowIndex="8">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../../resources/ic_local_shipping_black_36dp.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <GridPane.margin>
+                        <Insets left="2.0" right="2.0" />
+                     </GridPane.margin></Button>
+                  <Button contentDisplay="CENTER" mnemonicParsing="false" text="Button" textFill="TRANSPARENT" GridPane.rowIndex="9">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../../resources/ic_vpn_key_black_36dp.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <GridPane.margin>
+                        <Insets left="2.0" right="2.0" />
+                     </GridPane.margin></Button>
+                  <Button contentDisplay="CENTER" mnemonicParsing="false" text="Button" textFill="TRANSPARENT">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../../resources/ic_phone_in_talk_black_36dp.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <GridPane.margin>
+                        <Insets left="2.0" right="2.0" />
+                     </GridPane.margin></Button>
+               </children>
+            </GridPane>
+         </top></BorderPane>
+      <BorderPane layoutX="1.0" prefHeight="42.0" prefWidth="464.0" style="-fx-background-color: #585858;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="56.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <Text fill="#fcfcfc" strokeType="OUTSIDE" strokeWidth="0.0" text="Integrated System" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold Italic" size="28.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets left="10.0" />
+               </BorderPane.margin>
+            </Text>
+         </left>
+      </BorderPane>
+      <AnchorPane layoutX="-1.0" layoutY="42.0" minWidth="464.0" prefHeight="358.0" prefWidth="473.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="48.0" AnchorPane.topAnchor="42.0">
+         <children>
+            <Pane layoutX="353.0" layoutY="316.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <ImageView fitHeight="28.0" fitWidth="122.0" layoutX="-10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/LogoVinci.PNG" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </children></Pane>
+            <AnchorPane layoutY="14.0" prefHeight="50.0" prefWidth="110.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="14.0">
+               <children>
+                  <ImageView fitHeight="49.0" fitWidth="129.0" layoutX="3.0" layoutY="-4.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="-4.0">
+                     <image>
+                        <Image url="@../../resources/Boton-TA2.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="64.0" prefHeight="259.0" prefWidth="464.0" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="64.0">
+               <children>
+                  <TextArea layoutX="5.0" layoutY="6.0" prefHeight="253.0" prefWidth="464.0" promptText="Se mostrara el contenido de la seleccion " wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
